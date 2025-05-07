@@ -29,7 +29,6 @@ jobs:
 
       - name: Run Tests
         run: pnpm test
-        continue-on-error: true
 
       - run: pnpm build
 
@@ -42,15 +41,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 9.5.0
+
       - uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'pnpm'
           registry-url: 'https://registry.npmjs.org/'
-
-      - uses: pnpm/action-setup@v2
-        with:
-          version: 9.5.0
 
       - run: pnpm install
 
