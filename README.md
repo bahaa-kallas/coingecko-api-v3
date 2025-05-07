@@ -1,4 +1,4 @@
->This is a fork of samuraitruong/coingecko-api-v3. With plans to support further development to the client.
+>This is a fork of [samuraitruong/coingecko-api-v3](https://github.com/samuraitruong/coingecko-api-v3/). With plans to support further development to the client.
 # coingecko-api-v3
 
 [![CI](https://github.com/bahaa-kallas/coingecko-api-v3/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahaa-kallas/coingecko-api-v3/actions/workflows/ci.yml)
