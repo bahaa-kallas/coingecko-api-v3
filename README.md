@@ -1,8 +1,6 @@
 >This is a fork of [samuraitruong/coingecko-api-v3](https://github.com/samuraitruong/coingecko-api-v3/). With plans to support further development to the client.
 # coingecko-api-v3
 
-[![CI](https://github.com/bahaa-kallas/coingecko-api-v3/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahaa-kallas/coingecko-api-v3/actions/workflows/ci.yml)
-
 The nodejs api library for accessing coingecko api v3 , develop with typescript with zero dependencies
 
 - [Official document here](https://www.coingecko.com/api/documentations/v3)
