@@ -1,5 +1,5 @@
 {
-  "name": "@bahaa-kallas/coingecko-api-v3",
+  "name": "@bahaa_kallas/coingecko-api-v3",
   "version": "0.0.4",
   "description": "Client SDK library for coingecko api v3. A fork of samuraitruong/coingecko-api-v3.",
   "main": "dist/index.js",
