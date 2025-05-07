@@ -1,6 +1,6 @@
 {
   "name": "@bahaa-kallas/coingecko-api-v3",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Client SDK library for coingecko api v3. A fork of samuraitruong/coingecko-api-v3.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,7 +11,7 @@
     "doc-gen": "rimraf ./dist && typedoc --out ./docs src/",
     "prepublish": "pnpm run build",
     "publish-doc": "pnpm run doc-gen &&  gh-pages -d ./docs",
-    "release": "pnpm run standard-version"
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
