@@ -2,6 +2,8 @@ import { CoinGeckoClient } from "./CoinGeckoClient";
 
 const client = new CoinGeckoClient();
 
+jest.setTimeout(100000);
+
 describe("CoinGeckoClient test", () => {
   it("ping should successful", async () => {
     const ping = await client.ping();
@@ -66,7 +68,7 @@ describe("CoinGeckoClient test", () => {
 
     it("/coins/{id}/tickers should successful", async () => {
       const ticker = await client.coinIdTickers({ id: "origin-protocol" });
-      expect(ticker.name).toEqual("Origin Protocol");
+      expect(ticker.name).toEqual("Origin Token");
       expect(ticker.tickers.length).toBeGreaterThan(0);
     });
 

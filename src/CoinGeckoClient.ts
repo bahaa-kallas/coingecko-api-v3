@@ -38,7 +38,7 @@ export class CoinGeckoClient {
     "https://pro-api.coingecko.com/api/v3";
 
   options: Options = {
-    timeout: 5000,
+    timeout: 10000,
     autoRetry: true,
   };
 
